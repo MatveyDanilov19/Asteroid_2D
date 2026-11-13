@@ -1,0 +1,8 @@
+[TYPECHECK]
+extension-pkg-allow-list=pygame
+
+[BASIC]
+module-rgx=(([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$
+
+[MAIN]
+init-hook='import sys; sys.path.append(".")'
